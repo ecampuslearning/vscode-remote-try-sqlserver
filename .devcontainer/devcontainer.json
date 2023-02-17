@@ -17,7 +17,7 @@
 						"server": "localhost,1433",
 						"database": "",
 						"authenticationType": "SqlLogin",
-						"user": "sa",
+						"user": "vscode",
 						"password": "P@ssw0rd",
 						"emptyPasswordInput": false,
 						"savePassword": false,
