@@ -1,0 +1,49 @@
+[safe]
+	directory = D:/container-development-environment
+	directory = D:\workspaces.git\projects.git
+	directory = D:\workspaces.git\projects.git\microsoft-cloud-development
+[user]
+	email = officialmofabs@outlook.com
+	name = officialmofabs
+	user.name = officialmofabs
+
+	[core]
+	editor = \"D:\\Users\\officialmofabs\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin\\code-insiders\" --wait
+[user]
+	email = officialmofabs@outlook.com
+	name = officialmofabs
+[safe]
+	directory = %(prefix)///wsl.localhost/Ubuntu/home/developer
+	directory = F:/
+	directory = %(prefix)///wsl.localhost/Ubuntu/home/cloud-development
+	directory = %(prefix)///wsl.localhost/Ubuntu/home/data-science
+	directory = D:/workspaces.git/vscode-workplace-project
+	directory = %(prefix)///wsl.localhost/Ubuntu/home/datascience
+	directory = %(prefix)///wsl.localhost/Ubuntu/home/ecampusdev
+	directory = %(prefix)///wsl.localhost/Ubuntu/home/officialmofabs
+	directory = %(prefix)///wsl.localhost/Ubuntu/home/git
+	directory = %(prefix)///wsl.localhost/kali-linux/home
+	directory = %(prefix)///wsl.localhost/Ubuntu/home/ecampusdev/ecampuslearning/dev-environment
+	directory = %(prefix)///wsl.localhost/kali-linux/home/officialmofabs/cloud-development
+	directory = %(prefix)///wsl.localhost/kali-linux/home/officialmofabs/creativeclouds-github.io
+	directory = %(prefix)///wsl.localhost/kali-linux/home/officialmofabs/ros-desktop-vnc
+	directory = %(prefix)///wsl.localhost/kali-linux/home/officialmofabs/nginx-golang-mysql
+	directory = %(prefix)///wsl.localhost/kali-linux/home/officialmofabs/officialmofabs/ecampuslearning.git/projects.git/.config
+	directory = %(prefix)///wsl.localhost/kali-linux/home/officialmofabs/officialmofabs/ecampuslearning.git/projects.git/clouds-development-project
+	directory = %(prefix)///wsl.localhost/kali-linux/home/officialmofabs/officialmofabs/ecampuslearning.git/projects.git/myazure-development-projects
+	directory = %(prefix)///wsl.localhost/kali-linux/home/officialmofabs/officialmofabs/Projects
+	directory = C:/Users/officialmofabs
+	directory = %(prefix)///wsl.localhost/kali-linux/home/officialmofabs/officialmofabs/docker-netbootxyz
+	directory = %(prefix)///wsl.localhost/kali-linux/home/officialmofabs/officialmofabs
+	directory = %(prefix)///wsl.localhost/Ubuntu/home/officialmofabs/dev
+	directory = %(prefix)///wsl.localhost/kali-linux/home/officialmofabs/officialmofabs/devcontainers.github.io
+	directory = A:/
+	directory = C:/Users/devcon
+	directory = A:/WSL-Studio
+	directory = %(prefix)///wsl.localhost/Ubuntu/home/ecampusdev/ecampuslearning/ecampusdev-environment
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+
